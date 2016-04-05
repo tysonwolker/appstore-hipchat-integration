@@ -1,0 +1,6 @@
+b #{Title}  &ensp;
+each $star in Stars
+  img[src=$star][width="11px"][height="11px"]
+p by #{Author}
+br
+p #{Message}
